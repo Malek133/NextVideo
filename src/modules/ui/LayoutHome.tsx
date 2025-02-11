@@ -1,5 +1,5 @@
-import { Navbar } from "@/components/Navbar"
-import { Sidebar } from "@/components/sidebar"
+// import { Navbar } from "@/components/Navbar"
+// import { Sidebar } from "@/components/sidebar"
 
 interface LayoutProps {
   children:React.ReactNode
@@ -10,8 +10,8 @@ interface LayoutProps {
 export function LayoutHome({children}:LayoutProps) {
   return (
     <div>
-        <Navbar />
-        <Sidebar />
+        {/* <Navbar />
+        <Sidebar /> */}
         {children}
         </div>
   )
