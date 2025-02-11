@@ -2,6 +2,7 @@
 
 import { Bell, Menu, Mic, Search, Upload, User } from "lucide-react"
 import Link from "next/link"
+import AuthBtn from '@/components/AuthBtn'
 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -81,10 +82,16 @@ export function Navbar() {
             <Bell className="h-5 w-5" />
             <span className="sr-only">Notifications</span>
           </Button>
+
+          <Link href="/feed">
           <Button variant="ghost" size="icon">
             <User className="h-5 w-5" />
             <span className="sr-only">Account</span>
           </Button>
+          </Link>
+
+          <AuthBtn />
+
         </div>
       </div>
     </header>

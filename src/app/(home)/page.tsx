@@ -1,5 +1,6 @@
-import { Navbar } from "@/components/Navbar"
-import { Sidebar } from "@/components/sidebar"
+
+// import { Navbar } from "@/components/Navbar"
+// import { Sidebar } from "@/components/sidebar"
 import { VideoCard } from "@/components/video-card"
 
 const videos = [
@@ -50,8 +51,8 @@ const videos = [
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Sidebar />
+     {/* <Navbar />
+     <Sidebar /> */}
       <main className="min-h-screen pl-56 pt-16">
         <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {videos.map((video) => (
