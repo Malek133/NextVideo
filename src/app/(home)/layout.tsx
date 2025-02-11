@@ -6,9 +6,12 @@ interface LayoutProps {
 
 const layout = ({children}:LayoutProps) => {
   return (
-    <LayoutHome>
-        {children}
-        </LayoutHome>
+    
+      <LayoutHome>
+         {children}
+      </LayoutHome>
+   
+    
   )
 }
 

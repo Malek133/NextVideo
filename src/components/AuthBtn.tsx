@@ -1,5 +1,6 @@
 
-import { Button } from "@/components/ui/button"
+
+
 import {
   SignInButton,
   SignedIn,
@@ -11,9 +12,11 @@ const AuthBtn = () => {
   return (
     <div>
       <SignedOut>
-      <Button>
-            <SignInButton />
-            </Button>
+       
+          <SignInButton />
+        
+            
+            
           </SignedOut>
           <SignedIn>
             <UserButton />

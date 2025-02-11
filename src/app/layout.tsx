@@ -4,9 +4,8 @@ import "./globals.css";
 import {
   ClerkProvider
 } from '@clerk/nextjs'
-
-import {Sidebar} from "@/components/sidebar";
 import { Navbar } from "@/components/Navbar";
+import {Sidebar } from "@/components/sidebar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <html lang="en" suppressHydrationWarning>
+      <html lang="en">
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex`}>
           <Sidebar />
           <div className="flex-1 flex flex-col">

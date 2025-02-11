@@ -1,5 +1,4 @@
 
-// import { UserButton } from '@clerk/nextjs';
 
 import AuthBtn from "./AuthBtn";
 
@@ -13,3 +12,4 @@ export const Navbar: React.FC = () => {
     </nav>
   );
 };
+
