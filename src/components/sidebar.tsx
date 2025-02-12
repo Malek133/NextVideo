@@ -36,9 +36,14 @@ const mainNavItems = [
     href: "/trending",
   },
   {
+    title: "feed",
+    icon: ListVideo,
+    href: "/feed",
+  },
+  {
     title: "Subscriptions",
     icon: ListVideo,
-    href: "/subscriptions",
+    href: "/Subscriptions",
   },
 ]
 
